@@ -1,0 +1,21 @@
+HW info.
+HWNo : 
+_A_
+FileDelActive:
+False
+FileDelTime:
+onStart
+
+Hosting info.
+HostingAddress:
+http://epicgramdev.cafe24.com/
+Host:
+epicgramdev.cafe24.com
+ID:
+epicgramdev
+PW:
+dev@1357
+FolderPass:
+/www
+FileDelActive:
+False

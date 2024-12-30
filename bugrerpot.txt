@@ -1,0 +1,50 @@
+torchvision\io\image.py:13: UserWarning: Failed to load image Python extension: ''If you don't plan on using image functionality from `torchvision.io`, you can ignore this warning. Otherwise, there might be something wrong with your environment. Did you have `libjpeg` or `libpng` installed before building `torchvision` from source?
+torch\_jit_internal.py:853: UserWarning: Unable to retrieve source for @torch.jit._overload function: <function _DenseLayer.forward at 0x000001CD7FE956C0>.
+  warnings.warn(
+torch\_jit_internal.py:853: UserWarning: Unable to retrieve source for @torch.jit._overload function: <function _DenseLayer.forward at 0x000001CD7FE96520>.
+  warnings.warn(
+diffusers\loaders.py:1722: FutureWarning: The function `from_ckpt` is deprecated in favor of `from_single_file` and will be removed in diffusers v.0.21. Please make sure to use `StableDiffusionPipeline.from_single_file(...)` instead.
+In this conversion only the non-EMA weights are extracted. If you want to instead extract the EMA weights (usually better for inference), please make sure to add the `--extract_ema` flag.
+`text_config_dict` is provided which will be used to initialize `CLIPTextConfig`. The value `text_config["id2label"]` will be overriden.
+`text_config_dict` is provided which will be used to initialize `CLIPTextConfig`. The value `text_config["bos_token_id"]` will be overriden.
+`text_config_dict` is provided which will be used to initialize `CLIPTextConfig`. The value `text_config["eos_token_id"]` will be overriden.
+transformers\models\clip\feature_extraction_clip.py:28: FutureWarning: The class CLIPFeatureExtractor is deprecated and will be removed in version 5 of Transformers. Please use CLIPImageProcessor instead.
+  warnings.warn(
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:19<00:00,  1.03it/s]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.11it/s]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.11it/s]
+2023-10-19 17:09:07.9390782 [E:onnxruntime:Default, provider_bridge_ort.cc:1351 onnxruntime::TryGetProviderInfo_CUDA] D:\a\_work\1\s\onnxruntime\core\session\provider_bridge_ort.cc:1080 onnxruntime::ProviderSharedLibrary::Ensure [ONNXRuntimeError] : 1 : FAIL : LoadLibrary failed with error 126 "" when trying to load "C:\Users\justin\Documents\Ai_Generative_image\Photo_Studio_Rev_2.0\dist\ai_main_page\_internal\onnxruntime\capi\onnxruntime_providers_shared.dll"
+
+EP Error D:\a\_work\1\s\onnxruntime\python\onnxruntime_pybind_state.cc:636 onnxruntime::python::CreateExecutionProviderInstance CUDA_PATH is set but CUDA wasn't able to be loaded. Please install the correct version of CUDA and cuDNN as mentioned in the GPU requirements page (https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#requirements), make sure they're in the PATH, and that your GPU is supported.
+ when using ['CUDAExecutionProvider', 'CPUExecutionProvider']
+Falling back to ['CUDAExecutionProvider', 'CPUExecutionProvider'] and retrying.
+2023-10-19 17:09:08.0943121 [E:onnxruntime:Default, provider_bridge_ort.cc:1351 onnxruntime::TryGetProviderInfo_CUDA] D:\a\_work\1\s\onnxruntime\core\session\provider_bridge_ort.cc:1080 onnxruntime::ProviderSharedLibrary::Ensure [ONNXRuntimeError] : 1 : FAIL : LoadLibrary failed with error 126 "" when trying to load "C:\Users\justin\Documents\Ai_Generative_image\Photo_Studio_Rev_2.0\dist\ai_main_page\_internal\onnxruntime\capi\onnxruntime_providers_shared.dll"
+
+Exception in thread Thread-6 (thread_stable_diffuser):
+Traceback (most recent call last):
+  File "onnxruntime\capi\onnxruntime_inference_collection.py", line 383, in __init__
+  File "onnxruntime\capi\onnxruntime_inference_collection.py", line 435, in _create_inference_session
+RuntimeError: D:\a\_work\1\s\onnxruntime\python\onnxruntime_pybind_state.cc:636 onnxruntime::python::CreateExecutionProviderInstance CUDA_PATH is set but CUDA wasn't able to be loaded. Please install the correct version of CUDA and cuDNN as mentioned in the GPU requirements page (https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#requirements), make sure they're in the PATH, and that your GPU is supported.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "threading.py", line 1038, in _bootstrap_inner
+  File "threading.py", line 975, in run
+  File "ai_main_page.py", line 547, in thread_stable_diffuser
+  File "insightface\app\face_analysis.py", line 31, in __init__
+  File "insightface\model_zoo\model_zoo.py", line 97, in get_model
+  File "insightface\model_zoo\model_zoo.py", line 40, in get_model
+  File "insightface\model_zoo\model_zoo.py", line 25, in __init__
+  File "onnxruntime\capi\onnxruntime_inference_collection.py", line 394, in __init__
+  File "onnxruntime\capi\onnxruntime_inference_collection.py", line 389, in __init__
+  File "onnxruntime\capi\onnxruntime_inference_collection.py", line 435, in _create_inference_session
+RuntimeError: D:\a\_work\1\s\onnxruntime\python\onnxruntime_pybind_state.cc:636 onnxruntime::python::CreateExecutionProviderInstance CUDA_PATH is set but CUDA wasn't able to be loaded. Please install the correct version of CUDA and cuDNN as mentioned in the GPU requirements page (https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#requirements), make sure they're in the PATH, and that your GPU is supported.
+
+
+
+
+
+
+C:\Users\justin\AppData\Local\Programs\Python\Python311\Lib\site-packages\onnxruntime\capi

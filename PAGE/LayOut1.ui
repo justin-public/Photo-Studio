@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CustomerPopuplb</class>
+ <widget class="QDialog" name="CustomerPopuplb">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1913</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>AppleSDGothicNeoB00</family>
+    <pointsize>26</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(152, 28, 152);
+background:transparaent;
+color : rgb(255,255,255);</string>
+  </property>
+  <widget class="QLabel" name="blacklb">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::PreventContextMenu</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent();</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Photolb">
+   <property name="geometry">
+    <rect>
+     <x>335</x>
+     <y>50</y>
+     <width>1250</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent();</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>7</number>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="retakelb">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>900</y>
+     <width>346</width>
+     <height>104</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent();</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="generatorlb">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>900</y>
+     <width>346</width>
+     <height>104</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent();</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="giflb">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>228</y>
+     <width>500</width>
+     <height>500</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent();</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Convertlb">
+   <property name="geometry">
+    <rect>
+     <x>787</x>
+     <y>890</y>
+     <width>346</width>
+     <height>104</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent();</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Photo1lb">
+   <property name="geometry">
+    <rect>
+     <x>139</x>
+     <y>130</y>
+     <width>512</width>
+     <height>512</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent();</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="lineWidth">
+    <number>7</number>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Photo2lb">
+   <property name="geometry">
+    <rect>
+     <x>704</x>
+     <y>130</y>
+     <width>512</width>
+     <height>512</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent();</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="lineWidth">
+    <number>7</number>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Photo3lb">
+   <property name="geometry">
+    <rect>
+     <x>1269</x>
+     <y>130</y>
+     <width>512</width>
+     <height>512</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent();</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="lineWidth">
+    <number>7</number>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Select1lb">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>683</y>
+     <width>346</width>
+     <height>104</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Select2lb">
+   <property name="geometry">
+    <rect>
+     <x>787</x>
+     <y>683</y>
+     <width>346</width>
+     <height>104</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Select3lb">
+   <property name="geometry">
+    <rect>
+     <x>1360</x>
+     <y>683</y>
+     <width>346</width>
+     <height>104</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Qrbaselb">
+   <property name="geometry">
+    <rect>
+     <x>694</x>
+     <y>158</y>
+     <width>532</width>
+     <height>532</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent();</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Qrcodelb">
+   <property name="geometry">
+    <rect>
+     <x>755</x>
+     <y>221</y>
+     <width>410</width>
+     <height>410</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent();</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="homelb">
+   <property name="geometry">
+    <rect>
+     <x>787</x>
+     <y>860</y>
+     <width>346</width>
+     <height>104</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent();</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

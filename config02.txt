@@ -1,0 +1,27 @@
+Diffusion info.
+ckptPass
+model/beautifulRealistic_brav5.safetensors
+Prompt:
+(korean man:1.5),age 50,portrait photo of wearing christmas costume, (high detailed skin:1.2), makeup, christmas city background, rim lighting, looking at the camera, volumetric lighting, dslr, sharp focus, tack sharp, film grain, Fujifilm XT3, 8K, UHD
+Negative Prompt:
+disfigured, cartoon, anime, 3d, painting, b&w,, tiling, disfigured, ugly, bad, immature, cartoon, anime, 3d, painting, b&w,, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, extra limbs, disfigured, deformed, body out of frame, bad anatomy, watermark, signature, cut off, low contrast, underexposed, overexposed, bad art, beginner, amateur, distorted face, watermark
+Sampling step:
+20
+ResizeActive:
+False
+Scale Size:
+2
+Scale Model:
+weights/RealESRGAN_x2.pth
+Extension info.
+ControlWeight
+7
+CannyLowTh:
+100
+CannyHighTh:
+200
+insightfaceActive:
+True
+image save data:
+C:\Users\justin\Documents\Ai_Generative_image\Photo_Studio_Rev_2.0\photo
+
